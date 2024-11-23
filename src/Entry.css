@@ -1,0 +1,40 @@
+.entry {
+    display: flex;
+    margin: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.entry--image {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.entry--info {
+    display: flex;
+    flex-direction: column;
+}
+.entry--location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.entry--marker {
+    width: 15px;
+    height: auto;
+    margin-right: 5px;
+}
+.entry--title {
+    font-size: 20px;
+    margin: 5px 0;
+}
+.entry--dates {
+    font-size: 14px;
+    color: #888;
+    margin: 5px 0;
+}
+.entry--description {
+    font-size: 16px;
+    line-height: 1.5;
+}
